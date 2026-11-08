@@ -153,7 +153,7 @@ const questions = [
       'Se paga solo cuando el sitio tiene más de 100 visitantes',
       'No se paga nunca en ningún plan'
     ],
-    answer: 1,
+    answer: 9,
     explanation:
       'En un plan de consumo no se pagan máquinas encendidas, sino las ejecuciones y el tiempo de cómputo. Si nadie usa la función, no hay costo de cómputo.'
   }
