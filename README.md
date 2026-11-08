@@ -391,3 +391,5 @@ docker compose -f floci/docker-compose.yml down
 ```
 
 Floci guarda todo en memoria: al apagarlo se borra lo desplegado. Si algo falla, revisa `docker logs floci`.
+
+Cambio menor para el experimento 2.
