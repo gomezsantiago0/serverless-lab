@@ -142,6 +142,20 @@ const questions = [
     answer: 1,
     explanation:
       'Static Web Apps crea un entorno de staging por Pull Request (el plan Free permite unos pocos simultáneos). Al cerrar el PR, el job "close" lo elimina.'
+  },
+  {
+    id: 'q11',
+    concept: 'Pago por uso',
+    text: '¿Qué significa que serverless tenga un modelo de pago por uso?',
+    options: [
+      'Se paga una cuota fija mensual por cada servidor encendido',
+      'Se paga por las ejecuciones y el tiempo de cómputo que realmente se usan',
+      'Se paga solo cuando el sitio tiene más de 100 visitantes',
+      'No se paga nunca en ningún plan'
+    ],
+    answer: 1,
+    explanation:
+      'En un plan de consumo no se pagan máquinas encendidas, sino las ejecuciones y el tiempo de cómputo. Si nadie usa la función, no hay costo de cómputo.'
   }
 ];
 
